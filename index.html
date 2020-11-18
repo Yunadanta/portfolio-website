@@ -5,21 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter Lindley's Portfolio Website</title>
     <link rel="stylesheet" href="/resources/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1 class="title">Peter Lindley's Portfolio Website</h1>
-    <nav>
-      <a href="about_me.html">About Me</a>
-      <a href="https://github.com/Yunadanta?tab=repositories"
+    <nav class="page-links">
+      <a class="page-link" href="about_me.html">About Me</a>
+      <a
+        class="page-link"
+        href="https://github.com/Yunadanta?tab=repositories"
+        target="_blank"
         >My GitHub Repositories</a
       >
+      <a class="page-link" href="interesting-externals.html"
+        >Interesting Externals</a
+      >
     </nav>
-    <p>Welcome to my portfolio website.</p>
-    <h3>Developer Experience:</h3>
-    <ul>
-      <li>Junior Javascript Programmer</li>
-      <li>Base knowledge of SQL, KnewJS, Express, and Postgres.</li>
-      <li>Member of the Northcoder's 28th September 2020 Cohort.</li>
-    </ul>
+    <main>
+      <p id="welcoming-statement">
+        Welcome to my personal portfolio website!<br />
+        Here you'll find information about the ever evolving journey I am
+        undertaking on my programming adventure!<br /><br />
+        Below is a little list of my current programming experience and what
+        technologies I have used, while the other pages of my website go into me
+        as a person in more detail, have links or examples of previous projects
+        I have either been a part of or built myself, or are about interesting
+        or fun pieces of content I have found on my journey that relate to
+        programming in some way.
+      </p>
+      <h3 class="sub-title"><i>Developer Experience:</i></h3>
+      <ul class="list">
+        <li>
+          Life long computer user that started when I was about 6 years old, and
+          has continued to this day.
+        </li>
+        <br />
+        <li>
+          Junior level Javascript Programmer using NodeJS.<br />
+          <a class="image-link" href="https://nodejs.org/" target="_blank">
+            <img
+              id="nodejs-icon"
+              class="square-icon"
+              src="/resources/images/node-js-icon.png"
+              alt="NodeJS icon."
+            />
+          </a>
+          <br />
+        </li>
+        <br />
+        <li>
+          Experienced in Test Driven Development using JestJS, and Paired
+          Development thanks to structure of Northcoder's course.<br />
+          <a class="image-link" href="https://jestjs.io/" target="_blank">
+            <img
+              id="jestjs-icon"
+              class="square-icon"
+              src="/resources/images/jest-icon.png"
+              alt="JestJS icon."
+            />
+          </a>
+          <br />
+        </li>
+        <br />
+        <li>
+          Experienced in SQL using KnexJS and PostgreSQL, as well as ExpressJS
+          for Backend database development.<br />
+          <a class="image-link" href="http://knexjs.org/" target="_blank">
+            <img
+              id="knexjs-icon"
+              class="rectangle-icon"
+              src="/resources/images/knexjs-icon.png"
+              alt="ExpressJS icon."
+            />
+          </a>
+          <a
+            class="image-link"
+            href="https://www.postgresql.org/"
+            target="_blank"
+          >
+            <img
+              id="postgresql-icon"
+              class="square-icon"
+              src="/resources/images/postgreSQL-icon.png"
+              alt="PostgreSQL icon."
+            />
+          </a>
+          <a class="image-link" href="https://expressjs.com/" target="_blank">
+            <img
+              id="expressjs-icon"
+              class="rectangle-icon"
+              src="/resources/images/ExpressJS-icon.png"
+              alt="ExpressJS icon."
+            />
+          </a>
+          <br />
+        </li>
+        <br />
+        <li>
+          Experienced in HTML and CSS for Frontend development.<br />
+          <img
+            id="html5-css3-icons"
+            class="short-rectangle-icon"
+            src="/resources/images/html5-css3-icons.png"
+            alt="HTML5 and CSS3 icons."
+          />
+          <br />
+        </li>
+        <br />
+        <li>
+          Member of the Northcoder's 28th September 2020 Cohort.<br />
+          <a class="image-link" href="https://northcoders.com/" target="_blank">
+            <img
+              id="northcoders-icon"
+              class="long-rectangle-icon"
+              src="/resources/images/Northcoders.png"
+              alt="Northcoders icon."
+            />
+          </a>
+          <br />
+        </li>
+      </ul>
+    </main>
   </body>
 </html>

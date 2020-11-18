@@ -1,8 +1,95 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 40px;
+  text-align: justify;
 }
 
 .title {
+  font-family: 'Orbitron', sans-serif;
   font-size: 48pt;
   color: crimson;
+  margin-bottom: 20px;
+}
+
+.page-links {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page-link {
+  margin-right: 15px;
+}
+
+.image-link {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.sub-title {
+  margin-left: 20px;
+}
+
+.list {
+  margin-left: 20px;
+}
+
+#bio {
+  margin-left: 40px;
+  text-align: justify;
+}
+
+#welcoming-statement {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+#image-of-me-and-bobbie {
+  width: 350px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 5% 15% 15% 15%;
+  margin-top: 20px;
+  display: block;
+}
+
+#knexjs-icon {
+  width: 130px;
+}
+
+#expressjs-icon {
+  width: 150px;
+}
+
+.square-icon {
+  max-width: 30%;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.short-rectangle-icon {
+  max-width: 30%;
+  height: auto;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rectangle-icon {
+  max-width: 30%;
+  height: auto;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.long-rectangle-icon {
+  max-width: 40%;
+  height: auto;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
 }
